@@ -19,7 +19,8 @@ have, after all the chocolates are picked.
 
 ## Example
 - Input:
-10 20 30 3 
+10 20 30
+   3 
 - Output: 
 21 
 
@@ -30,15 +31,12 @@ have, after all the chocolates are picked.
 - total of 4+7+10=21 chocolates.
 
 ## code
-'''
-ls=list(map(int,input().split()))
-s=len(ls)
-add=0
-for i in range(s):
-    if ls[i]%3==0:
-          a=ls[i]//3    
-    else:     
-         a=(ls[i]//s)+1
-    add+=a
-print(add) 
-'''
+-
+![Screenshot 2024-06-26 204255](https://github.com/ChaithraDgitub/python-codes/assets/160298555/e3d0d8ab-2e0c-4088-8155-0801c4a71d04)
+## or
+-
+![Screenshot 2024-06-26 204340](https://github.com/ChaithraDgitub/python-codes/assets/160298555/df676a0f-ffec-4077-a6f9-acb814498bac)
+
+## Output
+
+![Screenshot 2024-06-26 204718](https://github.com/ChaithraDgitub/python-codes/assets/160298555/b055facf-7cd9-4057-9225-06ebbb8469bc)
