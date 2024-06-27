@@ -31,10 +31,10 @@ have, after all the chocolates are picked.
 - total of 4+7+10=21 chocolates.
 
 ## code
--
+1.
 ![Screenshot 2024-06-26 204255](https://github.com/ChaithraDgitub/python-codes/assets/160298555/e3d0d8ab-2e0c-4088-8155-0801c4a71d04)
 ## or
--
+2.
 ![Screenshot 2024-06-26 204340](https://github.com/ChaithraDgitub/python-codes/assets/160298555/df676a0f-ffec-4077-a6f9-acb814498bac)
 
 ## Output
