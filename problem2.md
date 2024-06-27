@@ -20,25 +20,19 @@ you can achieve by choosing a contiguous subarray of size K from the given array
 - input2 : An integer K representing the size of subarray 
 - input3 : An array of integers 
 ## Sample Input
-5 
-2 
-1 2 3 4 5 
+- 5 
+- 2 
+- 1 2 3 4 5 
 ## Sample Output
 14
 
 ## Code
 
-N=int(input("enter the number of shots:"))
-K=int(input("enter the size of sub array:"))
-A=list(map(int,input().split()))
-max=0
-for i in range(0,N-1):         
-    temp=A[i:K+i]
-    k,s=1,0
-    for j in temp:0
-        s=s+(k*j)
-        k=k+1
-    if s>max:
-        max=s
-print(max) 
+![Screenshot 2024-06-27 094954](https://github.com/ChaithraDgitub/python-codes/assets/160298555/cd3e50ec-5503-4a05-a660-625bbdc7559a)
+
+## Output
+
+![Screenshot 2024-06-27 095011](https://github.com/ChaithraDgitub/python-codes/assets/160298555/50f91541-39f5-4ced-97d1-2a9dd66a331a)
+
+
 
