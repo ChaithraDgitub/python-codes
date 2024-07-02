@@ -53,7 +53,7 @@ As 2 got the most number of votes i.e 3.
            print(-1)
            break
          else:
-           print(max(b)) 
+           print((b.index(max(b)))+1)
 # Output 1
 
 ![Screenshot 2024-06-28 222550](https://github.com/ChaithraDgitub/python-codes/assets/160298555/0ca259e3-5d89-4931-bcdd-52c47d088a80)
