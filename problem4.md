@@ -36,30 +36,7 @@ As 2 got the most number of votes i.e 3.
 - As both the contestants got same votes there is no majority.
 
 # Code:
-## code1:
-    dict={}
-    N=int(input("enter the number of votes:"))
-    votes=list(map(int,input().split()))
-    for i in votes:
-      if i in dict:
-        dict[i]+=1
-      else:
-        dict[i]=1  
-      print(dict)             
-      b=list(dict.values())
-      print(b)
-      for i in b:
-         if b.count(i)>1 and i>=max(b):
-           print(-1)
-           break
-         else:
-           print((b.index(max(b)))+1)
-# Output 1
 
-![Screenshot 2024-06-28 222550](https://github.com/ChaithraDgitub/python-codes/assets/160298555/0ca259e3-5d89-4931-bcdd-52c47d088a80)
-
-
-## code2:
       dict={}
       N=int(input("enter the number of votes:"))
       votes=list(map(int,input().split()))
@@ -70,13 +47,20 @@ As 2 got the most number of votes i.e 3.
            dict[i]=1  
       print(dict) 
       b=list(dict.values())
+      r=b.copy()
       c=(max(b))
       (b.remove(c))
-
+      print(b)
+      print(r)
       if c in b:
-        print(-1)
+          print(-1)
       else:
-        print(max(b)) 
+          print(b.index((max(b)))+1) 
+
+ # Output 1
+
+![Screenshot 2024-06-28 222550](https://github.com/ChaithraDgitub/python-codes/assets/160298555/0ca259e3-5d89-4931-bcdd-52c47d088a80)
+       
         
  # Output 2
  ![Screenshot 2024-06-28 221915](https://github.com/ChaithraDgitub/python-codes/assets/160298555/60c8a20b-249e-404a-a854-ca2aa337440a)
